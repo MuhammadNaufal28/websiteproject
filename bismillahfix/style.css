@@ -1,0 +1,72 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header a img {
+    padding: 50px 65px;
+    display: flex;
+    size: 20px;
+
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+#navbar li {
+    list-style: none;
+    padding: 20px 20px;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    transition: 0.5 ease;
+
+
+}
+#navbar li a:hover{
+    color: #FFEE4C;
+}
+
+#hero {
+   background-image: url(pages.png);
+   height: 90vh;
+   width: 100%;
+   background-position: top 2% right 0 ;
+   background-size: cover;
+   padding: 25px 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+}
+#hero button {
+    background-image: url();
+    background-color: black ;
+    background-position: top 25% right 0;
+    background-size: relative;
+    color: #FFEE4C;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 40px;
+    font-display: center;
+    left: 252px;
+top: 877px;
+}
+#footer{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: grey;
+    color: white;
+}

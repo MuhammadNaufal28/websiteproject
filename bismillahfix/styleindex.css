@@ -1,0 +1,50 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#navbar li {
+    list-style: none;
+    padding: 20px 20px;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    transition: 0.5 ease;
+}
+
+#navbar li a:hover{
+    color: #FFEE4C;
+}
+
+#link td a {
+    text-decoration: none;
+    position: flex;
+    color: black;
+}
+#link td a:hover {
+    color: #FFEE4C;
+
+}
+#hero  {
+    background-image: url(new2.png);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: top 2% right 0 ;
+    font-family: 'Varela Round';
+    position: flex;
+    align-items: center;
+    justify-content: center;
+
+}

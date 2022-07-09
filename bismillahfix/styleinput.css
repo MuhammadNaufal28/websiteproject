@@ -1,0 +1,68 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#navbar li {
+    list-style: none;
+    padding: 20px 20px;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    transition: 0.5 ease;
+}
+
+#navbar li a:hover{
+    color: #FFEE4C;
+}
+#hero {
+    background-image: url(n.png);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: top 2% right 0 ;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    transition: 0.5 ease;
+    
+}
+#button {
+    background-image: url();
+    background-color: black ;
+    background-position: top 25% right 0;
+    background-size: relative;
+    color: #FFEE4C;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 650;
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 40px;
+    font-display: center;
+    left: 252px;
+top: 877px;
+}
+#hero table {
+    width:"760";
+    border:"0" ;
+    align:"center" ;
+   
+}
+#hero button {
+    background-image: url();
+    background-color: black ;
+    background-position: top 25% right 0;
+
+}
